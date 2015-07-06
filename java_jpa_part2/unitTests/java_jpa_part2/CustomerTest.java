@@ -18,7 +18,7 @@ public class CustomerTest {
 				{
 					//create the object and fill it with an object from the db at the same time
 					DemoCustomer cust = em.find(DemoCustomer.class,1);//find by primary key of 1
-					assertEquals(2,cust.getCustomerId());
+					assertEquals(1,cust.getCustomerId());
 					//System.out.println(cust.getCustFirstName());
 					//System.out.println(cust.getCustLastName());
 					//System.out.println(cust.getCustCity());
